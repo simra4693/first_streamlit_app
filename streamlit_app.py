@@ -1,4 +1,4 @@
 import streamlit
 streamlit.title('Hello Everyone')
 
-print('Menu')
+streamlit.Header('Breakfast')
