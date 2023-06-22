@@ -47,3 +47,5 @@ streamlit.dataframe(my_data_rows)
 #allow the end user to add another fruit to list
 add_my_fruit = streamlit.text_input('Would you like to add another fruit?','starfruit')
 streamlit.write('Thanks for adding ', add_my_fruit)
+
+my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')"); 
